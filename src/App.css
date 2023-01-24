@@ -7,6 +7,9 @@
   margin: 0;
   font-family: 'Oswald', sans-serif;
 }
+h1, h2, h3, h4, h5, h6{
+  font-weight: 900;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -274,5 +277,34 @@ color:blue;
 }
 .form-bgcolor{
   background-color: #0b1d24;
+  color: white;
+}
+
+/* galler styling  */
+
+.img-gallery{
+  object-fit: contain;
+  width: 100%;
+  min-height:300px;
+  
+}
+.imgomega1{
+  min-height:300px;
+  max-height:410;
+}
+.galleryab{
+  min-height:290px;
+  max-height:350px;
+}
+.bgimgbn8{
+  background-image:url("./images/worldmap.png");
+  background-size: 100% 100%;
+  z-index: -3;
+}
+#banner8{
+  background-color: #f3f6f8;
+}
+#banner9{
+  background-color: #ba0304;
   color: white;
 }

@@ -12,6 +12,7 @@ import PRIVACYPOLICY from './pages/PRIVACYPOLICY';
 import LatestNew from './pages/LatestNew';
 import BLogs from './pages/BLogs';
 import Cricketjobs from './pages/Cricketjobs';
+import GALLERY from './pages/GALLERY';
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/pages/laatestnews' element={<LatestNew/>} />
           <Route path='/pages/blogs' element={<BLogs/>} />
           <Route path='/pages/cricketjobs' element={<Cricketjobs/>} />
+          <Route path='/pages/gallery' element={<GALLERY/>} />
         </Routes>
         <Footer/>
   </BrowserRouter>

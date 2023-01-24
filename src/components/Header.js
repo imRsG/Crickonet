@@ -30,6 +30,7 @@ const Header = () => {
              <Link className='text-decoration-none' to={"/pages/ContactUs"}><NavDropdown title="Services" id="collasible-nav-dropdown">
              <Link className='text-decoration-none' to={"/pages/blogs"}>  <NavDropdown.Item href="#test/3.1">BLOGS</NavDropdown.Item></Link>
              <Link className='text-decoration-none' to={"/pages/cricketjobs"}>  <NavDropdown.Item href="#test/3.1"> CARRER</NavDropdown.Item></Link>
+             <Link className='text-decoration-none' to={"/pages/gallery"}>  <NavDropdown.Item href="#test/3.1">GALLERY</NavDropdown.Item></Link>
               </NavDropdown></Link>
               <NavDropdown title="E-coaching" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#test/3.1">test</NavDropdown.Item>

@@ -17,10 +17,15 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
 import SportsCricketOutlinedIcon from '@mui/icons-material/SportsCricketOutlined';
 import absimg1 from './abs-img-1.png'
-import absimg2 from './homeEight-image.png'
+import absimg2 from '../images/homeEight-image.png'
 import { Figure } from 'react-bootstrap';
 // import Child from './Child';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
+import Thumbnailtv8 from '../images/thumbnailTV18.png'
+import Homeimg from '../images/homeimg.jpg'
 
 
 
@@ -87,7 +92,7 @@ const Home = () => {
             <section id='banner1'>
                 <Container className='w-80 op-1'>
                     <Row className=' justify-content-around m-4'>
-                        <Col className=' align-self-center'>
+                        <Col sm={6} className=' align-self-center'>
                             <h1 className='color-red h1' ><strong>Watch. Learn. Play.</strong></h1>
                             <h1 className='h1'>ALL ON ONE PLATFORM</h1>
 
@@ -171,7 +176,7 @@ const Home = () => {
                             <div className='position-relative round'>
                                 <Figure >
                                     <Figure.Image
-                                    className='round'
+                                        className='round'
                                         alt=""
                                         src="https://media.istockphoto.com/id/522183069/photo/hes-got-some-talent-with-the-bat.jpg?s=612x612&w=0&k=20&c=mhAkaoIQGREAtBPiYbU1ZnBKswUdXlnLAbBiPTPP2V8=" />
                                 </Figure>
@@ -424,29 +429,178 @@ const Home = () => {
                     </Row>
                 </Container>
             </section>
-            <section >
-                <Container className='image-realtive'>
+            <section className='position-relative'>
+                <Container>
                     <Row>
-                        <Col sm={6}>
-                            <Row className='justify-content-center align-self-center'>
+                        <Col sm={6} >
+                            <Row className='justify-content-center align-self-center pt-5'>
                                 <Col sm={10}>
                                     <h2>FROM THE <span className="color-red" >LOCKER ROOM</span></h2>
                                     <hr className='hr_footer' />
-                                    <p className='color-grey ps-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    <p className='color-grey fw-bold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         Lorem Ipsum has been the industry's standard whtype</p>
                                 </Col>
                             </Row>
-                            <Row className='pt-5'>
-                                <Col sm={8} className='color-darkgrey d-flex justify-content-center align-self-center ps-5'>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type</p>
+                            <div className='bgimgbn8 pb-5 mb-2'>
+                                <MilitaryTechIcon className='color-red m-0' sx={{ fontSize: 50 }} /><MilitaryTechIcon className='color-red m-0' sx={{ fontSize: 50 }} />
+                                <Row className='pt-4 d-flex justify-content-center'>
+                                    <Col sm={8} className='color-darkgrey  align-self-center  fw-bold '>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                            unknown printer took a galley of type and scrambled it to make a type</p>
+                                    </Col>
+                                </Row>
+                                <Row className='pt-1 d-flex justify-content-center'>
+                                    <Col sm={7} >
+                                        <div className="card mb-3">
+                                            <div className="row g-0">
+                                                <div className="col-md-3 align-self-center">
+                                                    <AccountCircleIcon className='color-red rounded-start' sx={{ fontSize: 60 }} />
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="card-body">
+                                                        <h5 className="card-title color-red">AHMED ELSAYED</h5>
+                                                        <p className="card-text"><small class="text-muted">PLAYERS</small></p>
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-3 card-body d-flex justify-content-end align-self-top"  >
+                                                    <ArrowBackIcon className=' color-red' />
+                                                    <ArrowForwardIcon className=' color-red' />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+                <Col sm={4} className='position-absolute top-0 end-0'><img className='img-fluid' src={absimg2} alt=''/></Col>
+            </section>
+            <section id='banner9'>
+                <Container>
+                    <Row className='pt-5'>
+                        <Col sm={4}>
+                            <h1 className='fw-bolder'><span className='color-yellow'>FEATURED</span> IN</h1>
+                            <hr className='hr_footer'></hr>
+                        </Col>
+                    </Row>
+                    <Row className='mb-4'>
+                        <Col sm={6}><p><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard when an unknown printer took a galley of type</small></p></Col>
+                        <Col sm={6} className='d-flex justify-content-end align-self-center'>
+                            <ArrowCircleLeftOutlinedIcon sx={{ fontSize: 60 }} />
+                            <ArrowCircleRightIcon sx={{ fontSize: 60 }} className='color-yellow' /></Col>
+                    </Row>
+                    <Row className='pb-5 d-flex justify-content-center'>
+                        <Col sm={2}><img className='rounded' src={Thumbnailtv8} alt='' /></Col>
+                        <Col sm={2}><img className='rounded' src={Thumbnailtv8} alt='' /></Col>
+                        <Col sm={2}><img className='rounded' src={Thumbnailtv8} alt='' /></Col>
+                        <Col sm={2}><img className='rounded' src={Thumbnailtv8} alt='' /></Col>
+                        <Col sm={2}><img className='rounded' src={Thumbnailtv8} alt='' /></Col>
+                    </Row>
+                </Container>
+            </section>
+            <section>
+                <Container>
+                    <Row>
+                        <Col sm={4} className='d-flex justify-content-center mx-auto'>
+                            <h1>IN THE  <sapn className='color-red'>  NEWS</sapn></h1>
+                            <hr />
+                        </Col>
+                    </Row>
+                    <Row className='d-flex justify-content-around mt-4'>
+                        <Col sm={5}>
+                            <Row className='d-flex justify-content-end'>
+                                <Col sm={12} className='clearfix mb-2'>
+                                    <p className='float-end mb-0'><small className='text-muted'>MAY 01, 2014 5:50 AM</small><span className='ms-3'>KNOW MORE </span><ArrowForwardIcon className=' color-red' /></p>
+                                    
                                 </Col>
+                                <hr></hr>
                             </Row>
                             <Row>
-                                <Col sm={5} >
-                                    <AccountCircleIcon className='color-red' sx={{ fontSize: 80 }} />
+                                <Col sm={6}>
+                                <div className='position-relative'>
+                                <img className='rounded img-fluid' src={Homeimg} alt='' />
+                                <div className='position-absolute top-0 start-0'><Button variant='danger' size="sm" className='m-2'>EXLUSIVE</Button></div>
+                                </div>
                                 </Col>
+                                <Col sm={6} className='align-self-center'> <Card>
+                                    <Card.Body>
+                                        <Card.Title className='fw-bolder'>The Pandemic and Its Drastic Impact on Aspiring</Card.Title>
+                                        <Card.Subtitle className="mb-2 text-muted fw-bold lh-base">Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches.</Card.Subtitle>
+                                    </Card.Body>
+                                </Card></Col>
+                            </Row>
+                        </Col>
+                        <Col sm={5}>
+                        <Row className='d-flex justify-content-end'>
+                                <Col sm={12} className='clearfix mb-2'>
+                                    <p className='float-end mb-0'><small className='text-muted'>MAY 01, 2014 5:50 AM</small><span className='ms-3'>KNOW MORE </span><ArrowForwardIcon className=' color-red' /></p>
+                                    
+                                </Col>
+                                <hr></hr>
+                            </Row>
+                            <Row>
+                                <Col sm={6}>
+                                <div className='position-relative'>
+                                <img className='rounded img-fluid' src={Homeimg} alt='' />
+                                <div className='position-absolute top-0 start-0'><Button variant='danger' size="sm" className='m-2'>EXLUSIVE</Button></div>
+                                </div>
+                                </Col>
+                                <Col sm={6} className='align-self-center'> <Card>
+                                    <Card.Body>
+                                        <Card.Title className='fw-bolder'>The Pandemic and Its Drastic Impact on Aspiring</Card.Title>
+                                        <Card.Subtitle className="mb-2 text-muted fw-bold lh-base">Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches.</Card.Subtitle>
+                                    </Card.Body>
+                                </Card></Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                    <Row className='d-flex justify-content-around mt-3'>
+                        <Col sm={5}>
+                            <Row className='d-flex justify-content-end'>
+                                <Col sm={12} className='clearfix mb-2'>
+                                    <p className='float-end mb-0'><small className='text-muted'>MAY 01, 2014 5:50 AM</small><span className='ms-3'>KNOW MORE </span><ArrowForwardIcon className=' color-red' /></p>
+                                    
+                                </Col>
+                                <hr></hr>
+                            </Row>
+                            <Row>
+                                <Col sm={6}>
+                                <div className='position-relative'>
+                                <img className='rounded img-fluid' src={Homeimg} alt='' />
+                                <div className='position-absolute top-0 start-0'><Button variant='danger' size="sm" className='m-2'>EXLUSIVE</Button></div>
+                                </div>
+                                </Col>
+                                <Col sm={6} className='align-self-center'> <Card>
+                                    <Card.Body>
+                                        <Card.Title className='fw-bolder'>The Pandemic and Its Drastic Impact on Aspiring</Card.Title>
+                                        <Card.Subtitle className="mb-2 text-muted fw-bold lh-base">Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches.</Card.Subtitle>
+                                    </Card.Body>
+                                </Card></Col>
+                            </Row>
+                        </Col>
+                        <Col sm={5}>
+                        <Row className='d-flex justify-content-end'>
+                                <Col sm={12} className='clearfix mb-2'>
+                                    <p className='float-end mb-0'><small className='text-muted'>MAY 01, 2014 5:50 AM</small><span className='ms-3'>KNOW MORE </span><ArrowForwardIcon className=' color-red' /></p>
+                                    
+                                </Col>
+                                <hr></hr>
+                            </Row>
+                            <Row>
+                                <Col sm={6}>
+                                <div className='position-relative'>
+                                <img className='rounded img-fluid' src={Homeimg} alt='' />
+                                <div className='position-absolute top-0 start-0'><Button variant='danger' size="sm" className='m-2'>EXLUSIVE</Button></div>
+                                </div>
+                                </Col>
+                                <Col sm={6} className='align-self-center'> <Card>
+                                    <Card.Body>
+                                        <Card.Title className='fw-bolder'>The Pandemic and Its Drastic Impact on Aspiring</Card.Title>
+                                        <Card.Subtitle className="mb-2 text-muted fw-bold lh-base">Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches.</Card.Subtitle>
+                                    </Card.Body>
+                                </Card></Col>
                             </Row>
                         </Col>
                     </Row>
