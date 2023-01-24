@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+*{
+  opacity: 1;
+  padding:0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bgcolro{
+  background-color: #0B1D24;
+  color:#999fa1;
+}
+Link{
+  text-decoration: none;
+}
+
+/* home styling css */
+.h1{
+  font-size: 59px;
+  font-family: 'Oswald', sans-serif;
+}
+.color-red{
+  color: #ba0304;
+}
+.bg-banner-1{
+  background: #BA0304 0% 0% no-repeat padding-box;
+opacity: 0.08;
+filter: blur(50px);
+}
+.round{
+  border-radius: 20px;
+}
+.bg-opacity{
+opacity:1;
+}
+.nav-link-footer{
+  color: azure;
+  font-weight: 100;
+}
+.banner2-bg{
+background-color: #f8f8f8;
+}
+
+.card-text{
+  line-height:15px;
+  color: #464545;
+  padding-left:10px;
+}
+.hr_footer1{
+  justify-content:end; 
+  margin-left: 40px; 
+  width: 30%; 
+  height:2.5px;
+  border-top: 3px solid rgb(0, 0, 0);
+}
+.icon-banner3{
+  background-color: #ba0304;
+  color: white;
+
+}
+.card{
+  border: 0;
+}
+.card1{
+  background-color: #f8f8f8 ;
+}
+/* banner 4 styling */
+#banner4{
+  background-color: #f8f8f8;
+}
+.color-grey{
+  color: #97a1a4;
+}
+.color-darkgrey{
+  color:#807f7e;
+}
+.divbn4rl{
+  position:relative;
+  background-image: url("https://thelogicalindian.com/h-upload/2021/10/11/204603-untitled-design-33.jpg");
+  background-size: 100% 100%;
+  background-color: rgb(86, 86, 164);
+  background-blend-mode: multiply;
+  max-width:250px;
+  height: 260px;
+  opacity:0.9;
+  max-height: 260px;
+  border-radius:20px;
+}
+.divbn4ab{
+position:absolute;
+color:white;
+font-weight: 600;
+top: 160px;
+right: 5px;
+padding:10px;
+z-index:100;
+line-height:14px;
+}
+#banner5{
+  background-color: #0b1d24;
+  color: white;
+}
+.colorbn5{
+  color:#97a1a4;
+}
+.small-box{
+height:250px;
+mask-size: cover;
+}
+.large-box{
+height:300px;
+mask: cover;
+}
+.bn8-abs{
+  position: absolute;
+  top: 0;
+  right:0;
+}
+
+/* aboutus styling */
+
+#bannerab1{
+  /* background-color:#0b1d24 ; */
+background-color: #0b1d24;
+  image-resolution: 300dpi;
+  background-size: 100%;
+  color:white;
+}
+
+.p-font{
+  font-weight: 100;
+}
+.abtbanner2 li{
+padding-top: 10px;
+padding-left:5px;
+padding-right:10px;
+font-size: small;
+padding-bottom: 10px;
+font-weight: 100;
+}
+.ul li{
+  list-style: none;
+}
+/* banner 6 styling */
+#banner6{
+background-color: white;
+}
+.bn6col1{
+  color: #afafaf;
+}
+.icon-bg-black{
+  background-color: #0B1D24;
+  border-radius:100px;
+}
+.bn6-card{
+  border-radius:10px;
+  background-color: #07161d;
+  color:#afafaf;
+  padding:0;
+  margin:10px;
+}
+
+#banner7{
+background: rgb(124,2,2);
+background: linear-gradient(16deg, rgba(124,2,2,1) 9%, rgba(167,2,3,1) 39%, rgba(186,3,4,1) 65%);
+color:white;
+z-index:3;
+}
+.bg-abs-img1{
+position: absolute;
+}
+.color-yellow{
+  color: #F3C939;
+}
+/* latest news styling */
+.card-img-top2{
+border-radius:10px;
+  padding:6px;
+}
+.ln-card{
+  border: #afafaf  1px solid;
+  border-radius:10px;
+  margin-top:20px;  
+
+}
+.bn-absolute{
+  position:absolute;
+  bottom:0;
+  right:0;
+  z-index:0;
+  max-height:350px;
+}
+.bn-img-8{
+  max-height:372px;
+  min-height:372px;
+  border-radius:10px;
+}
+
+.cardimg1{
+  min-height:180px;
+  max-height:180px;
+}
+
+/* footer stylings */
+.hr_footer{
+  justify-content:end; 
+  margin-left: 40px; 
+  width: 40%; 
+  height:2.5px;
+  border-top: 3px solid rgb(223, 223, 223);
+}
+.card-img-top1{
+  margin-left:9px;
+  border-radius:40px;
+  align-self: center;
+  max-width:56px;
+  max-height:56px;
+}
+.card-img-top2{
+  margin-left:9px;
+  border-radius:40px;
+  align-self: center;
+  max-width:76px;
+  max-height:76px;
+}
+.linka{
+  text-decoration: none;
+}
+.nav-hov a:hover{
+color:blue;
+}
+.iframerl{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+.iframeres{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.parallax1{
+  background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202110/marcus-wallis-mUtQXjjLPbw-unsp_1200x768.jpeg?size=1200:675");
+  min-height: 220px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2{
+  background-image: url("https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2022/11/Adelaide-Oval.jpg");
+  min-height: 220px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-bgcolor{
+  background-color: #0b1d24;
+  color: white;
+}
