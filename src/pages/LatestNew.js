@@ -16,7 +16,7 @@ const LatestNew = () => {
 
         },
         {
-            image: "https://www.thecitizen.in/h-upload/2022/07/31/357044-sports.webp",
+            image: "https://i.guim.co.uk/img/media/bb79a9dfea22d14dceb0771a9f37fee68a877c47/0_66_4358_2615/master/4358.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=ea0fb8eb4dc615926c8438406c5b382f",
             cardsubtle: "MAY 01, 2014 5:50 AM",
             cardtitle: "The Pandemic and Its Drastic Impact on Aspiring",
             catdtext: "Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches."
@@ -29,7 +29,21 @@ const LatestNew = () => {
             catdtext: "Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches."
 
         }, {
+            image: "https://www.thenewsminute.com/sites/default/files/India_SouthAfrica_Cricket_BCCI_3102022_1200.jpg",
+            cardsubtle: "MAY 01, 2014 5:50 AM",
+            cardtitle: "The Pandemic and Its Drastic Impact on Aspiring",
+            catdtext: "Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches."
+
+        },
+        {
             image: "https://www.thecitizen.in/h-upload/2022/07/31/357044-sports.webp",
+            cardsubtle: "MAY 01, 2014 5:50 AM",
+            cardtitle: "The Pandemic and Its Drastic Impact on Aspiring",
+            catdtext: "Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches."
+
+        },
+        {
+            image: "https://www.thenewsminute.com/sites/default/files/India_SouthAfrica_Cricket_BCCI_3102022_1200.jpg",
             cardsubtle: "MAY 01, 2014 5:50 AM",
             cardtitle: "The Pandemic and Its Drastic Impact on Aspiring",
             catdtext: "Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches."
@@ -50,21 +64,7 @@ const LatestNew = () => {
 
         },
         {
-            image: "https://www.thecitizen.in/h-upload/2022/07/31/357044-sports.webp",
-            cardsubtle: "MAY 01, 2014 5:50 AM",
-            cardtitle: "The Pandemic and Its Drastic Impact on Aspiring",
-            catdtext: "Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches."
-
-        },
-        {
-            image: "https://www.thecitizen.in/h-upload/2022/07/31/357044-sports.webp",
-            cardsubtle: "MAY 01, 2014 5:50 AM",
-            cardtitle: "The Pandemic and Its Drastic Impact on Aspiring",
-            catdtext: "Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches."
-
-        },
-        {
-            image: "https://www.thecitizen.in/h-upload/2022/07/31/357044-sports.webp",
+            image: "https://www.thenewsminute.com/sites/default/files/India_SouthAfrica_Cricket_BCCI_3102022_1200.jpg",
             cardsubtle: "MAY 01, 2014 5:50 AM",
             cardtitle: "The Pandemic and Its Drastic Impact on Aspiring",
             catdtext: "Amidst the pandemic, Criconet is an online cricket e-Coaching platform to learn and improve skills while sitting in home from BCCI Accredited Coaches."
@@ -124,17 +124,17 @@ const LatestNew = () => {
                                 data.map((data) => (
                                     <Col sm={4}>
                                         <Card className='ln-card clearfix'>
-                                            <Card.Img variant="top" className='img-fluid card-img-top2' src={data.image} />
+                                            <Card.Img variant="top" className='img-fluid card-img-top4' src={data.image} />
                                             <Card.Body className='clearfix'>
                                                 <Card.Subtitle className="mb-2 text-muted bn6col1">{data.cardsubtle}</Card.Subtitle>
-                                                <Card.Title>{data.cardtitle}</Card.Title>
-                                                <Card.Text className='bn6col1 lh-sm'>
+                                                <Card.Title className='fw-bolder'>{data.cardtitle}</Card.Title>
+                                                <Card.Text className='bn6col1 lh-base fw-normal'>
                                                     {data.catdtext}
                                                 </Card.Text>
                                                 <hr></hr>
                                                 <div className=''>
                                                     <Button variant="danger" className=''>TIMES OF INDIA</Button>
-                                                    <span className='float-sm-end'>Know more <EastOutlinedIcon className='color-red' /></span>
+                                                    <span className='float-sm-end fw-bolder fs-5'>Know more <EastOutlinedIcon className='color-red ms-1' /></span>
                                                 </div>
                                             </Card.Body>
                                         </Card>

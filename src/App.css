@@ -88,23 +88,20 @@ background-color: #f8f8f8;
   color:#807f7e;
 }
 .divbn4rl{
-  position:relative;
   background-image: url("https://thelogicalindian.com/h-upload/2021/10/11/204603-untitled-design-33.jpg");
   background-size: 100% 100%;
   background-color: rgb(86, 86, 164);
   background-blend-mode: multiply;
-  max-width:250px;
+  max-width:auto;
+  margin:5px;
   height: 260px;
   opacity:0.9;
   max-height: 260px;
-  border-radius:20px;
+  border-radius:12px;
 }
 .divbn4ab{
-position:absolute;
 color:white;
 font-weight: 600;
-top: 160px;
-right: 5px;
 padding:10px;
 z-index:100;
 line-height:14px;
@@ -186,9 +183,11 @@ position: absolute;
   color: #F3C939;
 }
 /* latest news styling */
-.card-img-top2{
+.card-img-top4{
 border-radius:10px;
   padding:6px;
+  min-height:250px;
+  max-height: 290px;
 }
 .ln-card{
   border: #afafaf  1px solid;
@@ -284,8 +283,6 @@ color:blue;
 
 .img-gallery{
   object-fit: contain;
-  width: 100%;
-  min-height:300px;
   
 }
 .imgomega1{
@@ -307,4 +304,16 @@ color:blue;
 #banner9{
   background-color: #ba0304;
   color: white;
+}
+.responsive{
+  width: 60%;
+  height: auto;
+}
+.responsive2{
+  width: 20%;
+  height: auto;
+}
+.responsive3{
+  width: 40%;
+  height: auto;
 }

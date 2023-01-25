@@ -234,30 +234,33 @@ const Home = () => {
                         </Col>
                     </Row>
                     <Row className='pb-5 d-flex justify-content-center'>
-                        <Col sm={3}>
-                            <div className='divbn4rl'>
-                                <div className='divbn4ab '>
+                        <Col sm={3} >
+                            <div className='divbn4rl position-relative'>
+                                <div className='divbn4ab position-absolute bottom-0 start-0 p-3 '>
                                     <p>SIMPLE HEADLINE</p>
                                     <small className="text-muted">Lorem Ipsum is simply dummy text of the printing</small>
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={3}><div className='divbn4rl'>
-                            <div className='divbn4ab'>
+                        <Col sm={3}>
+                        <div className='divbn4rl position-relative'>
+                            <div className='divbn4ab position-absolute bottom-0 start-0 p-3'>
                                 <p>SIMPLE HEADLINE</p>
                                 <small className="text-muted">Lorem Ipsum is simply dummy text of the printing</small>
                             </div>
                         </div>
                         </Col>
-                        <Col sm={3}><div className='divbn4rl'>
-                            <div className='divbn4ab'>
+                        <Col sm={3}>
+                        <div className='divbn4rl position-relative'>
+                            <div className='divbn4ab position-absolute bottom-0 start-0 p-3'>
                                 <p>SIMPLE HEADLINE</p>
                                 <small className="text-muted">Lorem Ipsum is simply dummy text of the printing</small>
                             </div>
                         </div>
                         </Col>
-                        <Col sm={3}><div className='divbn4rl'>
-                            <div className='divbn4ab'>
+                        <Col sm={3}>
+                        <div className='divbn4rl position-relative'>
+                            <div className='divbn4ab position-absolute bottom-0 start-0 p-3'>
                                 <p>SIMPLE HEADLINE</p>
                                 <small className='text-muted'>Lorem Ipsum is simply dummy text of the printing</small>
                             </div>
@@ -503,7 +506,7 @@ const Home = () => {
             <section>
                 <Container>
                     <Row>
-                        <Col sm={4} className='d-flex justify-content-center mx-auto'>
+                        <Col sm={4} className='d-flex justify-content-center mx-auto mt-5'>
                             <h1>IN THE  <sapn className='color-red'>  NEWS</sapn></h1>
                             <hr />
                         </Col>

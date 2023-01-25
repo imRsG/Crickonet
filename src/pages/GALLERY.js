@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Figure, Form } from 'react-bootstrap'
+import { Container, Row, Col, Figure} from 'react-bootstrap'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Button from 'react-bootstrap/esm/Button';
@@ -20,7 +20,7 @@ const GALLERY = () => {
                 </Container>
             </section>
             <section className='mt-5 d-flex justify-content-around'>
-                <Container className='w-80 mx-auto'>
+                <Container className='p-5 mx-auto'>
                     <Row>
                         <Col sm={4}>
                             <h1 className='fw-bold'>LATEST <span className='color-red'>IMAGES</span></h1>
@@ -28,30 +28,30 @@ const GALLERY = () => {
                         </Col>
                     </Row>
                     <Row className='pt-5  d-flex justify-content-evenly'>
-                        <Col sm={3} className='border border-2 p-1 rounded'> 
-                        <img className='img-fluid img-gallery ' src='https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=' alt=''/>
+                        <Col sm={4} className=''> 
+                        <img className='img-fluid img-gallery border border-2 p-1 rounded' src='https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=' alt=''/>
                         </Col>
-                        <Col sm={3} className='border border-2 p-1'>
-                        <img className='img-fluid  img-gallery ' src='https://images.theconversation.com/files/346531/original/file-20200709-22-g4pede.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip' alt=''/>
+                        <Col sm={4} className=''>
+                        <img className='img-fluid  img-gallery border border-2 p-1 rounded' src='https://images.theconversation.com/files/346531/original/file-20200709-22-g4pede.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip' alt=''/>
                         </Col>
-                        <Col sm={3} className='border border-2 p-1'>
-                        <img className='img-fluid  img-gallery ' src='https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=' alt=''/>
+                        <Col sm={4} className=''>
+                        <img className='img-fluid  img-gallery border border-2 p-1 rounded' src='https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=' alt=''/>
                         </Col>
                     </Row>
-                    <Row className='pt-3 d-flex justify-content-evenly'>
-                        <Col sm={2} className='border border-2 p-1 rounded'><img className='img-fluid  img-gallery ' src='https://images.theconversation.com/files/346531/original/file-20200709-22-g4pede.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip' alt=''/></Col>
-                        <Col sm={6} className='border border-2 p-1 rounded'> <img className='img-fluid  img-gallery ' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pollock_to_Hussey.jpg/1200px-Pollock_to_Hussey.jpg' alt=''/></Col>
-                        <Col sm={2} className='border border-2 p-1 rounded'><img className='img-fluid  img-gallery ' src='https://images.theconversation.com/files/346531/original/file-20200709-22-g4pede.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip' alt=''/></Col>
+                    <Row className='pt-3 d-flex justify-content-evenly align-self-center'>
+                        <Col sm={3}><img className='img-fluid  img-gallery border border-2 p-1 rounded' src='https://images.news18.com/ibnlive/uploads/2021/09/kohli-and-rohit.jpg' alt=''/></Col>
+                        <Col sm={6}> <img className='img-fluid  img-gallery border border-2 p-1 rounded' src='https://ichef.bbci.co.uk/news/976/cpsprodpb/3322/production/_121909031_mediaitem121909030.jpg' alt=''/></Col>
+                        <Col sm={3}><img className='img-fluid  img-gallery border border-2 p-1 rounded' src='https://images.news18.com/ibnlive/uploads/2021/09/kohli-and-rohit.jpg' alt=''/></Col>
                     </Row>
                     <Row className='pt-3  d-flex justify-content-evenly'>
-                        <Col sm={3} className='border border-2 p-1 rounded'> 
-                        <img className='img-fluid img-gallery ' src='https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=' alt=''/>
+                        <Col sm={4} > 
+                        <img className='img-fluid img-gallery border border-2 p-1 rounded' src='https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=' alt=''/>
                         </Col>
-                        <Col sm={3} className='border border-2 p-1'>
-                        <img className='img-fluid  img-gallery ' src='https://images.theconversation.com/files/346531/original/file-20200709-22-g4pede.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip' alt=''/>
+                        <Col sm={4} className=''>
+                        <img className='img-fluid  img-gallery border border-2 p-1 rounded' src='https://images.theconversation.com/files/346531/original/file-20200709-22-g4pede.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip' alt=''/>
                         </Col>
-                        <Col sm={3} className='border border-2 p-1'>
-                        <img className='img-fluid  img-gallery ' src='https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=' alt=''/>
+                        <Col sm={4} className=''>
+                        <img className='img-fluid  img-gallery border border-2 p-1 rounded' src='https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=' alt=''/>
                         </Col>
                     </Row>
                     <Row className='mb-5 mt-5'>
