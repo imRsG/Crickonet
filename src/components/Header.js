@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/esm/Button';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,27 +13,27 @@ const Header = () => {
     <section w-100>
       <Navbar collapseOnSelect expand="lg"  >
         <Container fluid="md">
-         <Link to={"/"}> <Navbar.Brand href="#home"><img
+         <NavLink to={"/"}> <Navbar.Brand href="#home"><img
             src={logo1}
             width="120"
             height="100"
             className="d-inline-block align-top border-0"
             alt="">
-          </img></Navbar.Brand></Link>
+          </img></Navbar.Brand></NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto  justify-content-center">
            <NavDropdown title="Features" id="collasible-nav-dropdown">
-           <Link className='text-decoration-none' to={"/pages/privacypolicy"}>  <NavDropdown.Item href="#test/3.1">privacy policy</NavDropdown.Item></Link>
-           <Link className='text-decoration-none' to={"/pages/laatestnews"}>  <NavDropdown.Item href="#test/3.1">Latest New</NavDropdown.Item></Link>
+           <NavLink className='text-decoration-none' to={"/pages/privacypolicy"}>  <NavDropdown.Item href="#test/3.1">privacy policy</NavDropdown.Item></NavLink>
+           <NavLink className='text-decoration-none' to={"/pages/laatestnews"}>  <NavDropdown.Item href="#test/3.1">Latest New</NavDropdown.Item></NavLink>
               </NavDropdown>
-             <Link className='text-decoration-none' to={"/pages/ContactUs"}><NavDropdown title="Services" id="collasible-nav-dropdown">
-             <Link className='text-decoration-none' to={"/pages/blogs"}>  <NavDropdown.Item href="#test/3.1">BLOGS</NavDropdown.Item></Link>
-             <Link className='text-decoration-none' to={"/pages/cricketjobs"}>  <NavDropdown.Item href="#test/3.1"> CARRER</NavDropdown.Item></Link>
-             <Link className='text-decoration-none' to={"/pages/gallery"}>  <NavDropdown.Item href="#test/3.1">GALLERY</NavDropdown.Item></Link>
-              </NavDropdown></Link>
+             <NavLink className='text-decoration-none' to={"/pages/ContactUs"}><NavDropdown title="Services" id="collasible-nav-dropdown">
+             <NavLink className='text-decoration-none' to={"/pages/blogs"}>  <NavDropdown.Item href="#test/3.1">BLOGS</NavDropdown.Item></NavLink>
+             <NavLink className='text-decoration-none' to={"/pages/cricketjobs"}>  <NavDropdown.Item href="#test/3.1"> CARRER</NavDropdown.Item></NavLink>
+             <NavLink className='text-decoration-none' to={"/pages/gallery"}>  <NavDropdown.Item href="#test/3.1">GALLERY</NavDropdown.Item></NavLink>
+              </NavDropdown></NavLink>
               <NavDropdown title="E-coaching" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#test/3.1">test</NavDropdown.Item>
+              <NavLink className='text-decoration-none' to={"/pages/coachprofile"}>  <NavDropdown.Item href="#test/3.1">NEW PACKADGE</NavDropdown.Item></NavLink>
               </NavDropdown>
               <Nav.Link href="#features">Live Streaming</Nav.Link>
               <NavDropdown title="Partners" id="collasible-nav-dropdown">

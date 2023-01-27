@@ -13,6 +13,7 @@ import LatestNew from './pages/LatestNew';
 import BLogs from './pages/BLogs';
 import Cricketjobs from './pages/Cricketjobs';
 import GALLERY from './pages/GALLERY';
+import CoachProfile from './pages/CoachProfile';
 
 
 
@@ -21,7 +22,7 @@ function App() {
     <BrowserRouter>
     <Header/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>} />
           <Route path="/pages/about" element={<About />} />
           <Route path="/pages/contactus" element={<ConstactUs />} />
           <Route path="/pages/termofuse" element={<Termofuse />} />
@@ -31,6 +32,7 @@ function App() {
           <Route path='/pages/blogs' element={<BLogs/>} />
           <Route path='/pages/cricketjobs' element={<Cricketjobs/>} />
           <Route path='/pages/gallery' element={<GALLERY/>} />
+          <Route path='/pages/coachprofile' element={<CoachProfile />} />
         </Routes>
         <Footer/>
   </BrowserRouter>

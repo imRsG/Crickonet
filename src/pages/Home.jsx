@@ -12,7 +12,6 @@ import EngineeringRoundedIcon from '@mui/icons-material/EngineeringRounded';
 import Banner5img from './banner5img.png'
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
 import SportsCricketOutlinedIcon from '@mui/icons-material/SportsCricketOutlined';
@@ -64,7 +63,7 @@ const Home = () => {
             catdtext: "Secure, convenient, and faster transactions in multiple-currencies."
         }
     ]
-    const dataa = [
+    const bannerdata = [
         {
             cardtitle: "1-ON-1 COACHING",
             catdtext: "Live and interactive sessions to learn that perfect form across the pitch coupled with anytime access to a library of expert videos."
@@ -97,8 +96,8 @@ const Home = () => {
                             <h1 className='h1'>ALL ON ONE PLATFORM</h1>
 
                             <br></br>
-                            <p><samll>Were bringing all the players, scouts, coaches, and fans together to build a community
-                                that breathes and lives cricket. Whether finding your next e-coach or watching that local match, weve got you covered.</samll>
+                            <p><small>Were bringing all the players, scouts, coaches, and fans together to build a community
+                                that breathes and lives cricket. Whether finding your next e-coach or watching that local match, weve got you covered.</small>
                             </p>
                             <br>
                             </br>
@@ -107,7 +106,7 @@ const Home = () => {
                         <Col sm={4}>
                             <div className='rounded d-flex justify-content-center pt-3'>
                                 <iframe className='round' width="470" height="415" src="https://www.youtube.com/embed/R0alThHNb0Y?controls=0"
-                                    title=".." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe>
+                                    title=".." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe>
                             </div>
                         </Col>
 
@@ -143,7 +142,7 @@ const Home = () => {
                                                     <div className="col-sm-10 align-items-center">
                                                         <div className="card-body ">
                                                             <h5 className="card-title fs-4  ">{data.cardtitle}</h5>
-                                                            <p class="card-text"><small class="text-muted">{data.catdtext}</small></p>
+                                                            <p className="card-text"><small className="text-muted">{data.catdtext}</small></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -195,7 +194,7 @@ const Home = () => {
                         <Col sm={5}>
                             <Row className='d-flex justify-content-center'>
                                 {
-                                    dataa.map((data) => (
+                                    bannerdata.map((data) => (
                                         <Col sm={10} className="justify-content-start">
                                             <div className="card mb-3">
                                                 <div className="row g-0">
@@ -205,7 +204,7 @@ const Home = () => {
                                                     <div className="col-sm-10 align-items-center">
                                                         <div className="card-body ">
                                                             <h5 className="card-title fs-4  ">{data.cardtitle}</h5>
-                                                            <p class="card-text"><small className="text-muted">{data.catdtext}</small></p>
+                                                            <p className="card-text"><small className="text-muted">{data.catdtext}</small></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -228,7 +227,7 @@ const Home = () => {
                             <h1 className='color-red'>E-COACHING</h1>
                             <hr></hr>
                             <br></br>
-                            <p class="card-text"><small className="text-muted">Learn the right techniques and skills
+                            <p className="card-text"><small className="text-muted">Learn the right techniques and skills
                                 through one-of-a-kind experience that takes you from amateur to professional in no time. Choose your coach,
                                 pick your time and start improving today!</small></p>
                         </Col>
@@ -463,7 +462,7 @@ const Home = () => {
                                                 <div className="col-md-6">
                                                     <div className="card-body">
                                                         <h5 className="card-title color-red">AHMED ELSAYED</h5>
-                                                        <p className="card-text"><small class="text-muted">PLAYERS</small></p>
+                                                        <p className="card-text"><small className="text-muted">PLAYERS</small></p>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-3 card-body d-flex justify-content-end align-self-top"  >
@@ -478,7 +477,7 @@ const Home = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Col sm={4} className='position-absolute top-0 end-0'><img className='img-fluid' src={absimg2} alt=''/></Col>
+                <Col sm={4} className='position-absolute top-0 end-0 hidden-sm'><img className='img-fluid' src={absimg2} alt=''/></Col>
             </section>
             <section id='banner9'>
                 <Container>
@@ -507,7 +506,7 @@ const Home = () => {
                 <Container>
                     <Row>
                         <Col sm={4} className='d-flex justify-content-center mx-auto mt-5'>
-                            <h1>IN THE  <sapn className='color-red'>  NEWS</sapn></h1>
+                            <h1>IN THE  <span className='color-red'>  NEWS</span></h1>
                             <hr />
                         </Col>
                     </Row>
