@@ -14,7 +14,8 @@ import BLogs from './pages/BLogs';
 import Cricketjobs from './pages/Cricketjobs';
 import GALLERY from './pages/GALLERY';
 import CoachProfile from './pages/CoachProfile';
-
+import Coachpackage from './pages/Coachpackage';
+import CoachProfile2 from './pages/CoachProfile2';
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
           <Route path='/pages/cricketjobs' element={<Cricketjobs/>} />
           <Route path='/pages/gallery' element={<GALLERY/>} />
           <Route path='/pages/coachprofile' element={<CoachProfile />} />
+          <Route path='/pages/coachpackage' element={<Coachpackage />} />
+          <Route path='/pages/coachProfile2' element={<CoachProfile2 />} />
         </Routes>
         <Footer/>
   </BrowserRouter>

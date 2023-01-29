@@ -24,16 +24,18 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto  justify-content-center">
            <NavDropdown title="Features" id="collasible-nav-dropdown">
-           <NavLink className='text-decoration-none' to={"/pages/privacypolicy"}>  <NavDropdown.Item href="#test/3.1">privacy policy</NavDropdown.Item></NavLink>
-           <NavLink className='text-decoration-none' to={"/pages/laatestnews"}>  <NavDropdown.Item href="#test/3.1">Latest New</NavDropdown.Item></NavLink>
+           <NavLink className='text-decoration-none fw-bold' to={"/pages/privacypolicy"}>  <NavDropdown.Item href="#test/3.1">privacy policy</NavDropdown.Item></NavLink>
+           <NavLink className='text-decoration-none fw-bold' to={"/pages/laatestnews"}>  <NavDropdown.Item href="#test/3.1">Latest New</NavDropdown.Item></NavLink>
               </NavDropdown>
-             <NavLink className='text-decoration-none' to={"/pages/ContactUs"}><NavDropdown title="Services" id="collasible-nav-dropdown">
-             <NavLink className='text-decoration-none' to={"/pages/blogs"}>  <NavDropdown.Item href="#test/3.1">BLOGS</NavDropdown.Item></NavLink>
-             <NavLink className='text-decoration-none' to={"/pages/cricketjobs"}>  <NavDropdown.Item href="#test/3.1"> CARRER</NavDropdown.Item></NavLink>
-             <NavLink className='text-decoration-none' to={"/pages/gallery"}>  <NavDropdown.Item href="#test/3.1">GALLERY</NavDropdown.Item></NavLink>
+             <NavLink className='text-decoration-none fw-bold' to={"/pages/ContactUs"}><NavDropdown title="Services" id="collasible-nav-dropdown">
+             <NavLink className='text-decoration-none fw-bold' to={"/pages/blogs"}>  <NavDropdown.Item href="#test/3.1">BLOGS</NavDropdown.Item></NavLink>
+             <NavLink className='text-decoration-none fw-bold' to={"/pages/cricketjobs"}>  <NavDropdown.Item href="#test/3.1"> CARRER</NavDropdown.Item></NavLink>
+             <NavLink className='text-decoration-none fw-bold' to={"/pages/gallery"}>  <NavDropdown.Item href="#test/3.1">GALLERY</NavDropdown.Item></NavLink>
               </NavDropdown></NavLink>
               <NavDropdown title="E-coaching" id="collasible-nav-dropdown">
-              <NavLink className='text-decoration-none' to={"/pages/coachprofile"}>  <NavDropdown.Item href="#test/3.1">NEW PACKADGE</NavDropdown.Item></NavLink>
+              <NavLink className='text-decoration-none fw-bold' to={"/pages/coachprofile"}>  <NavDropdown.Item href="#test/3.1">NEW PACKADGE</NavDropdown.Item></NavLink>
+              <NavLink className='text-decoration-none fw-bold' to={"/pages/coachpackage"}>  <NavDropdown.Item href="#test/3.1">Coach package</NavDropdown.Item></NavLink>
+              <NavLink className='text-decoration-none fw-bold' to={"/pages/coachProfile2"}>  <NavDropdown.Item href="#test/3.1">Coach package 2</NavDropdown.Item></NavLink>
               </NavDropdown>
               <Nav.Link href="#features">Live Streaming</Nav.Link>
               <NavDropdown title="Partners" id="collasible-nav-dropdown">

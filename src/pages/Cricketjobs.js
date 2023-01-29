@@ -316,9 +316,7 @@ const Cricketjobs = () => {
                                         <option value="3">Three</option>
                                     </Form.Select>
                                 </FloatingLabel>
-                                <FloatingLabel controlId="phone" label="Upload Your Resume" className="mb-3">
-                                    <Form.Control className='form-bgcolor' type="" placeholder="Password" />
-                                </FloatingLabel>
+                                    <Form.Control className='form-bgcolor' type="file" placeholder="Password" />
                                 <Button variant='danger'>Submit</Button>
                             </Form>
                         </Col>
