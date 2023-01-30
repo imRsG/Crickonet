@@ -58,7 +58,7 @@ const Cricketjobs = () => {
                     <Row className=' gy-5 pb-5'>
                         <Col sm={3}>
                             <Card className='position-relative border border-2 justify-content-center'>
-                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://developer.android.com/static/guide/practices/ui_guidelines/images/adaptive-icon-mask-applied.png" />
+                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://www.nicepng.com/png/full/356-3563301_instagram-instagram-circle-icon.png" />
                                 <Card.Body>
                                     <Card.Title className='text-center pt-4 fw-bold'>User Experience Designer</Card.Title>
                                     <div className='w-75 mx-auto' >
@@ -94,7 +94,7 @@ const Cricketjobs = () => {
                         </Col>
                         <Col sm={3}>
                             <Card className='position-relative border border-2 justify-content-center'>
-                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://developer.android.com/static/guide/practices/ui_guidelines/images/adaptive-icon-mask-applied.png" />
+                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://www.nicepng.com/png/full/356-3563301_instagram-instagram-circle-icon.png" />
                                 <Card.Body>
                                     <Card.Title className='text-center pt-4 fw-bold'>Architectural Designer</Card.Title>
                                     <div className='w-75 mx-auto' >
@@ -132,7 +132,7 @@ const Cricketjobs = () => {
                     <Row className=' gy-5 pb-5'>
                         <Col sm={3}>
                             <Card className='position-relative border border-2 justify-content-center'>
-                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://developer.android.com/static/guide/practices/ui_guidelines/images/adaptive-icon-mask-applied.png" />
+                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://www.nicepng.com/png/full/356-3563301_instagram-instagram-circle-icon.png" />
                                 <Card.Body>
                                     <Card.Title className='text-center pt-4 fw-bold'>User Experience Designer</Card.Title>
                                     <div className='w-75 mx-auto' >
@@ -168,7 +168,7 @@ const Cricketjobs = () => {
                         </Col>
                         <Col sm={3}>
                             <Card className='position-relative border border-2 justify-content-center'>
-                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://developer.android.com/static/guide/practices/ui_guidelines/images/adaptive-icon-mask-applied.png" />
+                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://www.nicepng.com/png/full/356-3563301_instagram-instagram-circle-icon.png" />
                                 <Card.Body>
                                     <Card.Title className='text-center pt-4 fw-bold'>Architectural Designer</Card.Title>
                                     <div className='w-75 mx-auto' >
@@ -206,7 +206,7 @@ const Cricketjobs = () => {
                     <Row className=' gy-5 pb-5'>
                         <Col sm={3}>
                             <Card className='position-relative border border-2 justify-content-center'>
-                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://developer.android.com/static/guide/practices/ui_guidelines/images/adaptive-icon-mask-applied.png" />
+                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://www.nicepng.com/png/full/356-3563301_instagram-instagram-circle-icon.png" />
                                 <Card.Body>
                                     <Card.Title className='text-center pt-4 fw-bold'>User Experience Designer</Card.Title>
                                     <div className='w-75 mx-auto' >
@@ -242,7 +242,7 @@ const Cricketjobs = () => {
                         </Col>
                         <Col sm={3}>
                             <Card className='position-relative  border border-2 justify-content-center'>
-                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://developer.android.com/static/guide/practices/ui_guidelines/images/adaptive-icon-mask-applied.png" />
+                                <Card.Img variant="top" className='position-absolute top-0 start-50 translate-middle card-img-top2 border border-2 p-2 bg-light' src="https://www.nicepng.com/png/full/356-3563301_instagram-instagram-circle-icon.png" />
                                 <Card.Body>
                                     <Card.Title className='text-center pt-4 fw-bold'>Architectural Designer</Card.Title>
                                     <div className='w-75 mx-auto' >
